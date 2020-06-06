@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>orderNow</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="#">
+            <img class="logo" src="images/Logo.png" style="width: 100px; height: 100px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+
+            </ul>
+            <span class="navbar-text">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link color" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color" href="menu.html">Menu </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color" class="" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color" class="" href="orderNow.html">Order now</a>
+                    </li>
+                    <ul>
+            </span>
+            <div class="add">
+                <span>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </span></div>
+        </div>
+    </nav>
+
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="onlineOrder  mt-5 ">
+                    <h2 class="color text-center">Online Order</h2>
+                </div>
+            </div>
+
+        </div>
+   
+        <section>
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-sm-12">
+                <form action="orderSubmit.html" method="POST">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" id="usr" name="username" placeholder="Name" >
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" id="ads" name="email" placeholder="Address">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input type="email" class="form-control" id="eml" name="email" placeholder="Email Address">
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <input type="number" class="form-control" id="phn" name="phnNumber"
+                                placeholder="Phone number">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+
+                            <select class="custom-select">
+                                <option selected>Select Cake</option>
+                                <option value="reg">Regukar Cake</option>
+                                <option value="sha">Shape Cake</option>
+                                <option value="drawing">Drawing Cake</option>
+                                <option value="cartoon">Cartoon Cake</option>
+                                <option value="birth">Birthday Cake</option>
+                                <option value="spec">Special Cake</option>
+                                <option value="ent">Event Cake</option>
+                                <option value="wed">Wedding Cake</option>
+                                <option value="cus">Customs Cake</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group col-md-4">
+                            <select class="custom-select">
+                                <option selected>Select Flavor</option>
+                                <option value="cof">Coffee Cake</option>
+                                <option value="che">Cheese Cake</option>
+                                <option value="salted">Salted Caramel</option>
+                                <option value="nut">Nutella</option>
+                                <option value="butter">Kentucky Butter Cake</option>
+                                <option value="dairy">Dairy Milk</option>
+                                <option value="galx">Galaxy Chocholate</option>
+                                <option value="fer">Ferrero Cake</option>
+                                <option value="kit">Kitkat Cake</option>
+                            </select>
+                        </div>
+
+                        <select class="custom-select col-md-4">
+                            <option selected> Select Ponds</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                            <option value="5">Five</option>
+                            <option value="6">Six</option>
+                            <option value="7">Seven</option>
+                            <option value="8">Eight</option>
+                            <option value="9">Nine </option>
+                            <option value="10">Ten</option>
+
+                        </select>
+                    </div>
+                    <div class="form-group ">
+                        <textarea name="write" class="form-control" id="write" cols="20" rows="5" placeholder="1.Write Happy Birthday 
+2.Custom Order Details"></textarea>
+                    </div>
+
+
+
+                    <div class="form-row">
+                        <div class="form-group col-md-4 ">
+                          
+                          <label>Date and time for delivery\pickup</label>
+                        </div>
+                          
+                          <div class="form-group col-md-4 ">
+                          
+                            <input type="date" class="form-control">
+                        </div>
+                            <div class="form-group col-md-4  ">
+                            
+                            <input class="form-control" type="time">
+                        </div>
+                    </div>  
+                        <div class="form-group ">
+                            <select class="custom-select ">
+                                <option  selected>Select Pickup Or Home Delivery</option>
+                                <option value="cof">1.I'll pick my order</option>
+                                <option value="che">2.Send to my address</option>
+                              
+                   
+                        </div>
+                          
+                        <div class="form-group ">
+                        <input type="submit" class="btn subBtn mt-10"><a href="orderSubmit.html"></a>
+                        </div>
+                </form>
+
+            </div>
+        </div>
+    </div></section>
+
+
+    <footer class="page-footer font-small stylish-color-dark pt-4">
+
+
+        <div class="container text-center text-md-left">
+    
+    
+          <div class="row">
+    
+    
+            <div class="col-md-4 mx-auto">
+    
+    
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+                <img class="logo" src="images/Logo.png" style="width: 100px; height: 100px;">
+              </h5>
+              <p>Our cakes are made from home to provide delicious cakes and other types of
+                pastry for a variety of events including weddings,
+                birthdays, and parties. We are glad to provide the cake you’ll love.</p>
+    
+            </div>
+            <!-- Grid column -->
+    
+            <hr class="clearfix w-100 d-md-none">
+    
+            <!-- Grid column -->
+            <div class="col-md-2 mx-auto">
+    
+              <!-- Links -->
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+    
+              <ul class="list-unstyled">
+                <li>
+                  <a class="li" href="about.html">About US</a>
+                </li>
+                <li>
+                  <a class="li" href="menu.html">Menu</a>
+                </li>
+                <li>
+                  <a class="li" href="contact.html">Contact Us</a>
+                </li>
+                <li>
+                  <a class="li" href="orderNow.html">Order Now</a>
+                </li>
+              </ul>
+    
+            </div>
+    
+            <div class="col-md-2 mx-auto links">
+    
+              <ul class="list-unstyled list-inline text-center">
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com/empyrealcakes">
+                    <i class="fa fa-facebook" aria-hidden="true" ></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-tw mx-1" href="https://www.instagram.com/empyrealcakes/">
+                    <i class="fa fa-instagram" aria-hidden="true" ></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-gplus mx-1">
+                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-gplus mx-1">
+                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                  </a>
+                </li>
+    
+    
+              </ul>
+            </div>
+    
+          </div>
+          <!-- Grid row -->
+    
+        </div>
+        <!-- Footer Links -->
+    
+    
+    
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+          <a href="https://empyrealcake.com/"> empyrealcake.com</a>
+        </div>
+    
+    
+      </footer>
+    
+    
+    
+    
+    
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

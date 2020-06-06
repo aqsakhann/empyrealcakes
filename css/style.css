@@ -1,0 +1,179 @@
+/* Base */
+
+
+
+.logo{
+  width: 80px; 
+  height: 80px;
+  margin-left: 50px !important;
+}
+.navbar{
+  /* text-align: right !important; */
+  background-color: cornsilk!important;
+
+ 
+}
+
+.fa-shopping-cart , .fa-search {
+font-size: 32px !important;
+color:rgb(107, 50, 10);;
+}
+
+.add{
+  margin-left: 500px;
+}
+.whatW{
+  margin-right: 20px;
+}
+.wwo{
+  margin-top: 100px!important;
+}
+.services{
+  background-color: white;
+  height: 150px;
+  margin-bottom: 7%;
+ box-shadow:  10px 10px 10px grey;
+
+}
+.page-footer{
+  background-color: cornsilk;
+}
+.links{
+  margin-top: 50px !important;
+}
+.li{
+  color:rgb(107, 50, 10);
+}
+.fa-google-plus,.fa-facebook,.fa-instagram,.fa-whatsapp{
+  font-size: 22px !important;
+  color: rgb(107, 50, 10);;
+}
+ .card-deck{
+   margin-top: 30px;
+   margin-bottom: 30px;
+ 
+ }
+ .card{
+   border-color: rgb(107, 50, 10);
+ }
+ .fa-heart, .fa-truck, .fa-birthday-cake ,.fa-map-marker,.fa-phone,.fa-envelope-o{
+   font-size: 40px !important;
+   color: rgb(107, 50, 10);
+ }
+ .aboutImage{
+
+   margin-top: 50px;
+ }
+ .about{
+   margin-top: 110px;
+   margin-bottom: 20px;
+
+ }
+ 
+ .Mission{
+   margin-top: 60px;
+   margin-left: 30px;
+ }
+
+ .num{
+   background-color: cornsilk;
+ margin-top: 30px;
+
+   
+
+ }
+ .mission,.values,.goals{
+   /* height: 80px; */
+   align-items: center;
+   padding-left: 2px;
+   
+  
+   
+ }
+ .gap{
+  height: 100px;
+
+ }
+ .s1:hover{
+color:rgb(107, 50, 10);;
+font-size: 20px;
+
+
+ }
+ a:link{
+  text-decoration: none;
+  color:rgb(107, 50, 10);;
+  font-size: larger;
+ }
+ .color{
+   color:rgb(107, 50, 10) !important;
+ }
+
+ .map{
+  overflow:hidden;
+  padding-bottom:30%;
+  position:relative;
+  height:0;
+ }
+ .map iframe{
+  left:0;
+  top:0;
+  height:350px;
+  width:100%;
+  position:absolute;
+ }
+ .get{
+   text-align: center !important;
+   margin-top: 20px;
+ }
+.rounded-circle{
+  border-color: rgb(107, 50, 10) ;
+text-align: right;
+align-items: center;
+}
+.quotation{
+  text-align:center;
+  margin-top: 10%;
+
+}
+input:hover , textarea:hover{
+  border-color:rgb(107, 50, 10)  ;
+}
+.subBtn{
+  background-color:rgb(107, 50, 10) ;
+  color: white;
+}
+/* .menuImg{
+  background-image: url('images\menu.jpg');
+  background-color: wheat;
+
+} */
+.underline{
+  border-bottom-color: brown;
+  border-bottom-width: 2px;
+  border-bottom-style: dashed;
+  font-size: 25px;
+
+}
+.mt-10{
+  margin-top: 10px!important;
+  text-align: center;
+}
+.form-control:focus,.custom-select:focus{
+  border-color: brown;
+  background-color:white;
+  box-shadow: none;
+}
+
+
+/* gallery */
+
+a img{
+  height: 210px;
+  width: 210px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.fancybox{
+  margin-bottom: 10px;
+}
